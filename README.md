@@ -58,13 +58,12 @@ allure generate allure-results -o allure-report --clean (or) allure serve
 **Some common Issues & Fixes Users might face while setup and running tests locally**
 
 
-Issue	                                   		 -->  Resolution
+| Issue                              | Resolution                                                                 |
+|------------------------------------|-----------------------------------------------------------------------------|
+| Allure report only showed "Loading..." | Used `allure generate allure-results -o allure-report --clean` or `allure serve` |
+| App not launching in Simulator     | Ensured `.app` path is correct and Simulator is booted                     |
+| Keyboard blocked UI                | Tapped Return key on keyboard                                              |
 
-Allure report only showed "Loading..."	   		--> 		used command to open allure reports allure generate allure-results -o allure-report --clean (or) allure serve
-
-App not launching in Simulator	           		--> 		Ensured .app path is correct and Simulator is booted
-
-Keyboard blocked UI	                      		--> 		Tapped Return key on keyboard
 
 
 
